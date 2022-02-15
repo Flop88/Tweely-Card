@@ -2,8 +2,8 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-	let greet = Greeting().greeting()
-
+    
+    let greet = TweelySDK().engine.greeting()
 	var body: some View {
 		Text(greet)
 	}
